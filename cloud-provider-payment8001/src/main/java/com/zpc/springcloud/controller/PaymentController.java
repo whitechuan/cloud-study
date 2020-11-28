@@ -5,9 +5,12 @@ import com.zpc.springcloud.pojo.Payment;
 import com.zpc.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.Collection;
 
 /**
  * ClassName: PaymentController
@@ -21,6 +24,8 @@ import javax.annotation.Resource;
 @RestController
 public class PaymentController {
 
+    @Resource
+    private DiscoveryClient discoveryClient;
 
     @Resource
     private PaymentService paymentService;
@@ -48,5 +53,19 @@ public class PaymentController {
         }else {
             return new CommetResult(444, "查询失败，服务端口："+serverPort,result);
         }
+    }
+
+    @GetMapping("/payment/discovery")
+    public DiscoveryClient discovery(){
+        Collection<String> services = discoveryClient.getServices();
+        for (String service : services) {
+            log.info("##########"+service);
+        }
+
+        Collection<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
+        for (ServiceInstance instance : instances) {
+            log.info("**********"+instance.getHost()+"\t"+instance.getServiceId()+"\t"+instance.getPort());
+        }
+         return discoveryClient;
     }
 }
