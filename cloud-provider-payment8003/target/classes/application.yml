@@ -1,0 +1,8 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      connect-string: 119.28.75.27:2181             # 默认localhost:2181
