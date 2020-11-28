@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5db878-03c3-4da6-98ef-63cab27b726c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zpc/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zpc/springcloud/PaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/zpc/springcloud/PaymentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/zpc/springcloud/PaymentMain8001.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,9 +180,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaMain7001" />
         <item itemvalue="Spring Boot.OrderMain80 (1)" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
         <item itemvalue="Spring Boot.OrderMain8002" />
         <item itemvalue="Spring Boot.OrderMain80" />
       </list>
@@ -188,7 +192,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.28593507" />
+          <option name="contentProportion" value="0.24884081" />
           <treeState>
             <expand>
               <path>
@@ -223,7 +227,7 @@
       <workItem from="1606459458518" duration="9338000" />
       <workItem from="1606472776843" duration="2734000" />
       <workItem from="1606475811598" duration="310000" />
-      <workItem from="1606476300330" duration="5104000" />
+      <workItem from="1606476300330" duration="6428000" />
     </task>
     <servers />
   </component>
@@ -246,38 +250,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="154" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1606480651988" />
-    <state width="923" height="312" key="GridCell.Tab.0.bottom" timestamp="1606480800459">
+    <state width="971" height="312" key="GridCell.Tab.0.bottom" timestamp="1606523221219">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606480800459" />
-    <state width="923" height="312" key="GridCell.Tab.0.center" timestamp="1606480800458">
+    <state width="971" height="312" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606523221219" />
+    <state width="971" height="312" key="GridCell.Tab.0.center" timestamp="1606523221219">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606480800458" />
-    <state width="923" height="312" key="GridCell.Tab.0.left" timestamp="1606480800458">
+    <state width="971" height="312" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606523221219" />
+    <state width="971" height="312" key="GridCell.Tab.0.left" timestamp="1606523221219">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606480800458" />
-    <state width="923" height="312" key="GridCell.Tab.0.right" timestamp="1606480800459">
+    <state width="971" height="312" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606523221219" />
+    <state width="971" height="312" key="GridCell.Tab.0.right" timestamp="1606523221219">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606480800459" />
-    <state width="923" height="312" key="GridCell.Tab.1.bottom" timestamp="1606480800459">
+    <state width="971" height="312" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606523221219" />
+    <state width="971" height="312" key="GridCell.Tab.1.bottom" timestamp="1606523221220">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606480800459" />
-    <state width="923" height="312" key="GridCell.Tab.1.center" timestamp="1606480800459">
+    <state width="971" height="312" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606523221220" />
+    <state width="971" height="312" key="GridCell.Tab.1.center" timestamp="1606523221220">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1606480800459" />
-    <state width="923" height="312" key="GridCell.Tab.1.left" timestamp="1606480800459">
+    <state width="971" height="312" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1606523221220" />
+    <state width="971" height="312" key="GridCell.Tab.1.left" timestamp="1606523221220">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1606480800459" />
-    <state width="923" height="312" key="GridCell.Tab.1.right" timestamp="1606480800459">
+    <state width="971" height="312" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1606523221220" />
+    <state width="971" height="312" key="GridCell.Tab.1.right" timestamp="1606523221220">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="923" height="312" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1606480800459" />
+    <state width="971" height="312" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1606523221220" />
     <state x="254" y="46" key="Registry" timestamp="1606472640564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
