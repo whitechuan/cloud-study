@@ -18,8 +18,8 @@ import org.springframework.web.client.RestTemplate;
  */
 @RestController
 public class OrderController {
-    private final String PAYMENT_URI = "http://127.0.0.1:8001";
-
+    //private final String PAYMENT_URI = "http://127.0.0.1:8001";
+    private final String PAYMENT_URI = "http://CLOUD-PAYMENT-SERVICE";
     @Autowired
     private RestTemplate restTemplate;
 
