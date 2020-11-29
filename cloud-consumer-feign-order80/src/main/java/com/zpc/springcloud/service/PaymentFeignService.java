@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * ClassName: PaymentFeignService
  * Package: com.zpc.springcloud.service
@@ -18,5 +20,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(value = "CLOUD-PAYMENT-SERVICE")
 public interface PaymentFeignService {
     @GetMapping("/payment/query/{id}")
-    public CommetResult queryById(@PathVariable("id") Long id);
+    CommetResult queryById(@PathVariable("id") Long id);
+
+    @GetMapping(value = "/payment/timeout")
+    String getPaymentTimeout();
 }

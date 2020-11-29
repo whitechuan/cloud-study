@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.concurrent.TimeUnit;
 
 /**
  * ClassName: OrderFeignController
@@ -27,5 +28,11 @@ public class OrderFeignController {
     @GetMapping("/consumer/payment/query/{id}")
     public CommetResult queryById(@PathVariable("id") Long id){
         return  paymentFeignService.queryById(id);
+    }
+
+    @GetMapping(value = "/consumer/payment/timeout")
+    public String getPaymentTimeout() {
+
+        return paymentFeignService.getPaymentTimeout();
     }
 }

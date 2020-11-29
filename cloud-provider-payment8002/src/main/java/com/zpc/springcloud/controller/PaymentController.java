@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.concurrent.TimeUnit;
 
 /**
  * ClassName: PaymentController
@@ -54,4 +55,13 @@ public class PaymentController {
         return serverPort;
     }
 
+    @GetMapping(value = "/payment/timeout")
+    public String getPaymentTimeout() {
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
+    }
 }
