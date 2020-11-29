@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5db878-03c3-4da6-98ef-63cab27b726c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/myrule/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/comfig/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/META-INF/cloud-consumer-order80.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/com/zpc/springcloud/OrderMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/com/zpc/springcloud/comfig/ApplicationContextConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/com/zpc/springcloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zpc/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zpc/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/zpc/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/zpc/springcloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/lb/LoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/lb/MyLB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/OrderMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/src/main/java/com/zpc/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/com/zpc/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/com/zpc/springcloud/OrderMain80.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/com/zpc/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon-order80/target/classes/com/zpc/springcloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zpc/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zpc/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zpc/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zpc/springcloud/controller/PaymentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +276,7 @@
       <workItem from="1606459458518" duration="9338000" />
       <workItem from="1606472776843" duration="2734000" />
       <workItem from="1606475811598" duration="310000" />
-      <workItem from="1606476300330" duration="41178000" />
+      <workItem from="1606476300330" duration="43336000" />
     </task>
     <servers />
   </component>
@@ -306,10 +298,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606467020028">
+    <state x="275" y="38" width="816" height="730" key="#Intentions" timestamp="1606640477161">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1606467020028" />
+    <state x="275" y="38" width="816" height="730" key="#Intentions/0.0.1366.768@0.0.1366.768" timestamp="1606640477161" />
+    <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1606639822973">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1606639822973" />
     <state x="437" y="74" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1606464605837">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -366,9 +362,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="115" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1606564971510" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606565211272">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606639845541">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1606565211272" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1606639845541" />
   </component>
 </project>

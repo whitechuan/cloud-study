@@ -49,4 +49,9 @@ public class PaymentController {
             return new CommetResult(444, "查询失败，服务端口："+serverPort,result);
         }
     }
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;
+    }
+
 }
