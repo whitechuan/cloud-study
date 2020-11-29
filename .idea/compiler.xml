@@ -19,6 +19,7 @@
         <module name="cloud-consumer-order80" />
         <module name="cloud-consumer-ribbon-order80" />
         <module name="cloud-consumer-zk-order" />
+        <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
