@@ -1,6 +1,9 @@
 package com.zpc.springcloud.controller;
 
+import cn.hutool.core.util.IdUtil;
 import com.netflix.discovery.converters.Auto;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.zpc.springcloud.service.PaymentHystrixService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,5 +48,13 @@ public class PaymentHystrixController {
         return result;
 
     }
+
+    @GetMapping("/payment/circuit/{id}")
+    public String paymentInfo_circuit(@PathVariable("id") Integer id){
+        String result = paymentHystrixService.paymentCircuitBreaker(id);
+        log.info("*****result:" + result);
+        return result;
+    }
+
 
 }
