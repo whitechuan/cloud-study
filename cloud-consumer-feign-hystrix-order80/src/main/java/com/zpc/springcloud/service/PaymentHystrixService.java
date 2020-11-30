@@ -1,6 +1,7 @@
 package com.zpc.springcloud.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
@@ -12,7 +13,8 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @Date: 2020/11/29 20:31
  * @Author:zpc@qq.com
  */
-@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT")
+@Component
+@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT",fallback = PaymentFallbackService.class)
 public interface PaymentHystrixService {
 
     @GetMapping("/payment/hystrix/ok/{id}")
