@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5db878-03c3-4da6-98ef-63cab27b726c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zpc/springcloud/controller/PaymentHystrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zpc/springcloud/controller/PaymentHystrixController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/zpc/springcloud/controller/PaymentHystrixController.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/zpc/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zpc.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-payment8002" />
       <extension name="coverage">
@@ -226,6 +235,7 @@
       <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       <item itemvalue="Spring Boot.OrderMainZK80" />
       <item itemvalue="Spring Boot.OrderHystrixMain80" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
     </list>
     <recent_temporary>
       <list>
@@ -276,7 +286,7 @@
       <workItem from="1606459458518" duration="9338000" />
       <workItem from="1606472776843" duration="2734000" />
       <workItem from="1606475811598" duration="310000" />
-      <workItem from="1606476300330" duration="55231000" />
+      <workItem from="1606476300330" duration="56547000" />
     </task>
     <servers />
   </component>
@@ -362,10 +372,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="366" y="183" width="647" height="534" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1606461730996" />
-    <state x="115" y="0" key="new project wizard" timestamp="1606652909865">
+    <state x="115" y="0" key="new project wizard" timestamp="1606704230616">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="115" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1606652909865" />
+    <state x="115" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1606704230616" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606639845541">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
