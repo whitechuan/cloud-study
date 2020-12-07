@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5db878-03c3-4da6-98ef-63cab27b726c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/zpc/springcloud/SentinelMain8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/zpc/springcloud/controller/SentinelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +110,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosClientConfigMain3377">
+  <component name="RunManager" selected="Spring Boot.SentinelMain8401">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zpc.springcloud.ConfigCenterMain3344" />
@@ -273,15 +277,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamReciveMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-consumer8802" />
+    <configuration name="SentinelMain8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zpc.springcloud.controller.*" />
+          <option name="PATTERN" value="com.zpc.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zpc.springcloud.StreamReciveMain8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zpc.springcloud.SentinelMain8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zpc.springcloud.StreamMQMain8801" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,24 +324,25 @@
       <item itemvalue="Spring Boot.OrderFeignMain80" />
       <item itemvalue="Spring Boot.ConfigMain3366" />
       <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-      <item itemvalue="Spring Boot.StreamReciveMain8802" />
       <item itemvalue="Spring Boot.OrderHystrixMain80" />
-      <item itemvalue="Spring Boot.StreamReciveMain8803" />
       <item itemvalue="Spring Boot.GateWay9527" />
-      <item itemvalue="Spring Boot.PaymentMain9001" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
       <item itemvalue="Spring Boot.PaymentMain9002" />
-      <item itemvalue="Spring Boot.OrderNacosMain83" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.StreamReciveMain8803" />
+      <item itemvalue="Spring Boot.PaymentMain9001" />
+      <item itemvalue="Spring Boot.OrderNacosMain83" />
       <item itemvalue="Spring Boot.NacosClientConfigMain3377" />
+      <item itemvalue="Spring Boot.StreamMQMain8801" />
+      <item itemvalue="Spring Boot.SentinelMain8401" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelMain8401" />
         <item itemvalue="Spring Boot.NacosClientConfigMain3377" />
         <item itemvalue="Spring Boot.OrderNacosMain83" />
         <item itemvalue="Spring Boot.PaymentMain9001" />
         <item itemvalue="Spring Boot.StreamReciveMain8803" />
-        <item itemvalue="Spring Boot.StreamReciveMain8802" />
       </list>
     </recent_temporary>
   </component>
@@ -349,11 +361,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -381,7 +388,8 @@
       <workItem from="1606459458518" duration="9338000" />
       <workItem from="1606472776843" duration="2734000" />
       <workItem from="1606475811598" duration="310000" />
-      <workItem from="1606476300330" duration="95586000" />
+      <workItem from="1606476300330" duration="95792000" />
+      <workItem from="1607304258420" duration="2112000" />
     </task>
     <servers />
   </component>
@@ -393,7 +401,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -435,38 +445,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="494" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606964394425" />
-    <state width="958" height="248" key="GridCell.Tab.0.bottom" timestamp="1607052280530">
+    <state width="958" height="248" key="GridCell.Tab.0.bottom" timestamp="1607306609934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607052280530" />
-    <state width="958" height="248" key="GridCell.Tab.0.center" timestamp="1607052280530">
+    <state width="958" height="248" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
+    <state width="958" height="248" key="GridCell.Tab.0.center" timestamp="1607306609933">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607052280530" />
-    <state width="958" height="248" key="GridCell.Tab.0.left" timestamp="1607052280529">
+    <state width="958" height="248" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607306609933" />
+    <state width="958" height="248" key="GridCell.Tab.0.left" timestamp="1607306609933">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607052280529" />
-    <state width="958" height="248" key="GridCell.Tab.0.right" timestamp="1607052280530">
+    <state width="958" height="248" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607306609933" />
+    <state width="958" height="248" key="GridCell.Tab.0.right" timestamp="1607306609933">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607052280530" />
-    <state width="958" height="248" key="GridCell.Tab.1.bottom" timestamp="1607052280530">
+    <state width="958" height="248" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607306609933" />
+    <state width="958" height="248" key="GridCell.Tab.1.bottom" timestamp="1607306609935">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607052280530" />
-    <state width="958" height="248" key="GridCell.Tab.1.center" timestamp="1607052280530">
+    <state width="958" height="248" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607306609935" />
+    <state width="958" height="248" key="GridCell.Tab.1.center" timestamp="1607306609934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1607052280530" />
-    <state width="958" height="248" key="GridCell.Tab.1.left" timestamp="1607052280530">
+    <state width="958" height="248" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
+    <state width="958" height="248" key="GridCell.Tab.1.left" timestamp="1607306609934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1607052280530" />
-    <state width="958" height="248" key="GridCell.Tab.1.right" timestamp="1607052280530">
+    <state width="958" height="248" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
+    <state width="958" height="248" key="GridCell.Tab.1.right" timestamp="1607306609934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1607052280530" />
+    <state width="958" height="248" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
     <state x="213" y="39" key="Maven.ArtifactSearchDialog" timestamp="1606731953769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -487,10 +497,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="366" y="183" width="647" height="534" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1606461730996" />
-    <state x="102" y="0" width="1225" height="768" key="new project wizard" timestamp="1607049797099">
+    <state x="102" y="0" width="1225" height="768" key="new project wizard" timestamp="1607305548685">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="102" y="0" width="1225" height="768" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1607049797099" />
+    <state x="102" y="0" width="1225" height="768" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1607305548685" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606722350687">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
