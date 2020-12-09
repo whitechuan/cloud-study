@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5db878-03c3-4da6-98ef-63cab27b726c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/zpc/springcloud/SentinelMain8401.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/zpc/springcloud/controller/SentinelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/zpc/springcloud/controller/SentinelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/zpc/springcloud/controller/SentinelController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,11 +325,11 @@
       <item itemvalue="Spring Boot.PaymentMain8002" />
       <item itemvalue="Spring Boot.PaymentMain9002" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.StreamMQMain8801" />
       <item itemvalue="Spring Boot.StreamReciveMain8803" />
       <item itemvalue="Spring Boot.PaymentMain9001" />
       <item itemvalue="Spring Boot.OrderNacosMain83" />
       <item itemvalue="Spring Boot.NacosClientConfigMain3377" />
-      <item itemvalue="Spring Boot.StreamMQMain8801" />
       <item itemvalue="Spring Boot.SentinelMain8401" />
     </list>
     <recent_temporary>
@@ -360,7 +356,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -389,7 +385,8 @@
       <workItem from="1606472776843" duration="2734000" />
       <workItem from="1606475811598" duration="310000" />
       <workItem from="1606476300330" duration="95792000" />
-      <workItem from="1607304258420" duration="2112000" />
+      <workItem from="1607304258420" duration="3490000" />
+      <workItem from="1607477926364" duration="240000" />
     </task>
     <servers />
   </component>
@@ -445,38 +442,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="494" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606964394425" />
-    <state width="958" height="248" key="GridCell.Tab.0.bottom" timestamp="1607306609934">
+    <state width="958" height="248" key="GridCell.Tab.0.bottom" timestamp="1607308704478">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
-    <state width="958" height="248" key="GridCell.Tab.0.center" timestamp="1607306609933">
+    <state width="958" height="248" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607308704478" />
+    <state width="958" height="248" key="GridCell.Tab.0.center" timestamp="1607308704477">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607306609933" />
-    <state width="958" height="248" key="GridCell.Tab.0.left" timestamp="1607306609933">
+    <state width="958" height="248" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607308704477" />
+    <state width="958" height="248" key="GridCell.Tab.0.left" timestamp="1607308704476">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607306609933" />
-    <state width="958" height="248" key="GridCell.Tab.0.right" timestamp="1607306609933">
+    <state width="958" height="248" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607308704476" />
+    <state width="958" height="248" key="GridCell.Tab.0.right" timestamp="1607308704477">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607306609933" />
-    <state width="958" height="248" key="GridCell.Tab.1.bottom" timestamp="1607306609935">
+    <state width="958" height="248" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607308704477" />
+    <state width="958" height="248" key="GridCell.Tab.1.bottom" timestamp="1607308704479">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607306609935" />
-    <state width="958" height="248" key="GridCell.Tab.1.center" timestamp="1607306609934">
+    <state width="958" height="248" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607308704479" />
+    <state width="958" height="248" key="GridCell.Tab.1.center" timestamp="1607308704478">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
-    <state width="958" height="248" key="GridCell.Tab.1.left" timestamp="1607306609934">
+    <state width="958" height="248" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1607308704478" />
+    <state width="958" height="248" key="GridCell.Tab.1.left" timestamp="1607308704478">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
-    <state width="958" height="248" key="GridCell.Tab.1.right" timestamp="1607306609934">
+    <state width="958" height="248" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1607308704478" />
+    <state width="958" height="248" key="GridCell.Tab.1.right" timestamp="1607308704479">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="958" height="248" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1607306609934" />
+    <state width="958" height="248" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1607308704479" />
     <state x="213" y="39" key="Maven.ArtifactSearchDialog" timestamp="1606731953769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
